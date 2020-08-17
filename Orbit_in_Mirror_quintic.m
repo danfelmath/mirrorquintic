@@ -1,5 +1,6 @@
 clc
 clear
+% Prueba 
  %% The next code computes the orbit of the vector v, by the monodromy matrices M0, M1 of the mirror CY threefold, modulo p.
 
 v=[0 1 0 0]; %Initial vector:  [0,1,0,0] is the 3-torus delta2. [0,0,0,1] is the 3-sphere delta4.
