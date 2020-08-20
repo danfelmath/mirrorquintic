@@ -27,7 +27,6 @@ while norm>0
         while j<p+1
                 i=0;
             while i<P+1
-                %vaux=mod(M1^j*(M0^5)^i*W(:,l),p);
                 vaux=mod(W(l,:)*M1^j*(M0)^i,p);
                 vp=pscale(vaux,p); %It is the list vaux of vectors, written as list of number in p-decimal
                 if length(find(Wp==vp))==0
